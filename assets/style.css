@@ -1,0 +1,266 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: rubik;
+    src: url(./Fonts/Rubik-Regular.ttf);
+}
+
+@font-face {
+    font-family: playfair;
+    src: url(./Fonts/PlayfairDisplay-Regular.ttf);
+}
+
+
+
+/* Hero Section */
+
+.heroSection {
+    height: 100vh;
+    background-image: url(./img/Hero\ Section.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    width: 14.6rem;
+}
+
+.linknav {
+    font-family: Rubik;
+    color: white;
+    font-size: 20px;
+    font-weight: medium;
+    position: relative;
+}
+
+.linknav::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 1px;
+    width: 0;
+    height: 3px;
+    background-color: #FF7757;
+    transition: 0.7s;
+}
+
+.linknav:hover::after {
+    width: 98%;
+}
+
+.linknav:hover {
+    color: rgba(255, 255, 255, 0.89);
+}
+
+.logInBtn {
+    text-decoration: none;
+    font-family: rubik;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    transition: 0.7s linear;
+}
+
+.logInBtn:hover {
+    color: #FF7757;
+}
+
+.signUpBtn {
+    border: none;
+    width: 135px;
+    height: 64px;
+    background-color: #FF7757;
+    border-radius: 12px;
+    color: white;
+    font-family: rubik;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 36px;
+    transition: 0.7s linear;
+}
+
+.signUpBtn2 {
+    border: none;
+    width: 105px;
+    height: 44px;
+    background-color: #FF7757;
+    border-radius: 12px;
+    color: white;
+    font-family: rubik;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 36px;
+}
+
+.signUpBtn:hover {
+    background-color: white;
+    color: #FF7757;
+}
+
+.head-title {
+    font-family: playfair;
+    font-size: 5.25rem;
+    font-weight: 500;
+    color: #fff;
+    margin: 0;
+    margin-top: 58px;
+}
+
+.head-paragraph {
+    font-family: rubik;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #fff;
+    margin: 0;
+    margin-top: 16px;
+}
+
+.fadebox {
+    width: 97rem;
+    height: 13.5rem;
+    background-color: #fff;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.leftbox {
+    display: flex;
+    justify-content: center;
+    height: 4rem;
+    margin-right: 100px;
+}
+
+.leftbtn {
+    width: 10.26rem;
+    height: 13.5rem;
+    border: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #FF7757;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 500;
+    font-family: playfair;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 20px;
+}
+
+.arrow {
+    position: absolute;
+    right: 20px;
+    top: 45%;
+}
+
+.label {
+    color: #767E86;
+    font-family: rubik;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cities {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #000;
+    width: 14rem;
+    height: 2.1rem;
+    font-size: 20px;
+    font-family: playfair;
+    font-weight: 500;
+    color: #172432;
+}
+
+.inputDate {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #000;
+    width: 14rem;
+    height: 2.1rem;
+    font-size: 20px;
+    font-family: playfair;
+    font-weight: 500;
+    color: #172432;
+}
+
+
+/* Popular Destinations */
+
+
+.title-popular {
+    font-family: playfair;
+    font-size: 64px;
+    font-weight: 500;
+    color: #172432;
+}
+
+.hr-line {
+    height: 3px;
+    width: 22.8rem;
+    background-color: #FF7757;
+    color: #FF7757;
+    opacity: 1;
+}
+
+.paragraph-popular {
+    font-family: rubik;
+    font-size: 24px;
+    font-weight: 500;
+    color: #767E86;
+}
+
+.switchBtns {
+    position: absolute;
+    bottom: -127px;
+    left: 0;
+    width: 172px;
+    height: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nextbtn {
+    transform: rotate(180deg) !important;
+}
+
+.trans2 {
+    transform: rotate(360deg) !important;
+}
+
+.btnhover {
+    opacity: 1;
+    transition: 0.7s linear
+}
+
+.btnssvg rect {
+    transition: 0.7s linear
+}
+
+.btnhover:hover .btnssvg > rect{
+    fill: #FF7757;
+}
+
+
+
+/* media queries */
+
+
+@media screen and (max-width:1600px) {
+    .fadebox {
+        width: 84rem;
+    }
+
+    .head-title {
+        margin-top: 41px;
+    }
+}
