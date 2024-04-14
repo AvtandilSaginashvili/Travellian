@@ -252,6 +252,407 @@ body {
 
 
 
+
+/* Special Offer */
+
+
+.contentBox {
+    width: 100%;
+    background-color: #FEF8F2;
+    padding: 40px 24px 40px 24px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.titleLisbon {
+    font-family: rubik;
+    font-size: 1.75rem;
+    font-weight: 500;
+    color: #767E86;
+    margin: 0;
+}
+
+.paragraph-description {
+    margin: 0;
+    font-family: rubik;
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #172432;
+    margin-top: 24px;
+    line-height: 21px;
+}
+
+.p-from {
+    margin: 0;
+    font-family: rubik;
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: #767E86;
+}
+
+.price {
+    font-size: 2.5rem;
+    color: #FF7757;
+    margin-left: 8px;
+}
+
+.detailsBtn {
+    width: 9.938rem;
+    height: 3.75rem;
+    background-color: #FF7757;
+    border-radius: 12px;
+    border: none;
+    color: #fff;
+    font-family: rubik;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+
+
+/* Our Blog */
+
+
+.hr-line2 {
+    height: 3px;
+    width: 9.375rem;
+    background-color: #FF7757;
+    color: #FF7757;
+    opacity: 1;
+}
+
+.titleBlog {
+    margin: 0;
+    font-family: playfair;
+    font-size: 3.375rem;
+    font-weight: 500;
+    color: #172432;
+    margin-top: 76px;
+}
+
+.blogDescription {
+    margin: 0;
+    font-family: rubik;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #172432;
+    margin-top: 24px;
+}
+
+.blogBtn {
+    background-color: transparent;
+    border: none;
+    height: 3.25rem;
+    color: #FF7757;
+    font-family: rubik;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    transition: 0.7s linear;
+}
+
+.blogBtn:hover {
+    color: #172432;
+    background-color: #FF7757;
+    border-radius: 12px;
+}
+
+.arrow2 path {
+    transition: 0.7s linear;
+}
+
+.blogBtn:hover .arrow2 path {
+    fill: #172432;
+}
+
+
+
+
+/* Trip Planner */
+
+.hr-line3 {
+    height: 3px;
+    width: 14.438rem;
+    background-color: #FF7757;
+    color: #FF7757;
+    opacity: 1;
+}
+
+.plannerEffect1 {
+    font-family: rubik;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #172432;
+    margin: 0;
+}
+
+.plannerEffect2 {
+    font-family: playfair;
+    font-weight: 800;
+    font-size: 1.45rem;
+    color: #172432;
+    margin: 0;
+    margin-top: 12px;
+}
+
+.ratingStar {
+    width: 100px;
+    height: 1.2rem;
+}
+
+.plannerImg {
+    cursor: pointer;
+    transition: 0.4s linear;
+}
+
+.plannerImg:hover {
+    transform: translateY(-100px);
+}
+
+.hoverBox {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    visibility: hidden;
+    z-index: -1;
+    transition: 0.4s linear;
+}
+
+.plannerImg:hover .hoverBox {
+    visibility: visible !important;
+    position: absolute;
+    bottom: -100px;
+}
+
+.plannerBtnBox {
+    width: 13.625rem;
+    height: 5.719rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plannerBtn{
+    width: 11.625rem;
+    height: 3.813rem;
+    background-color: #FF7757;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    font-family: rubik;
+    font-size: 1.125rem;
+    font-weight: 500;
+    transition: 0.4s linear;
+}
+
+.plannerRect {
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    z-index: -1;
+    transition: 0.4s;
+}
+
+.plannerRect2 {
+    position: absolute;
+    bottom: -15px;
+    right: -15px;
+    z-index: -1;
+    transition: 0.4s;
+}
+
+.plannerBtn:hover {
+    background-color: #172432;
+    color: #FF7757;
+}
+
+.plannerBtn:hover .plannerRect {
+    left: -65px;
+    transform: rotate(-360deg);
+}
+
+.plannerBtn:hover .plannerRect2 {
+    right: -65px;
+    transform: rotate(360deg);
+}
+
+.plannerRect rect {
+    transition: 0.4s;
+}
+
+.plannerBtn:hover .plannerRect rect {
+    fill: #FF7757;
+}
+
+.plannerRect2 rect {
+    transition: 0.4s;
+}
+
+.plannerBtn:hover .plannerRect2 rect {
+    fill: #FF7757;
+}
+
+
+/* Destination Gallery */
+
+
+.hr-line4 {
+    width: 17.688rem;
+    height: 3px;
+    background-color: #FF7757;
+    color: #FF7757;
+    opacity: 1;
+}
+
+.avatarbox {
+    background-color: #F5F6F7;
+    padding: 40px 60px 40px 40px;
+    border-radius: 12px;
+}
+
+.avatarExpe {
+    position: absolute;
+    top: -4.5rem;
+    left: 2.5rem;
+    border-radius: 50%;
+}
+
+.paragraph-experience {
+    font-family: rubik;
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #767E86;
+    margin: 0;
+}
+
+.jhonDoe {
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: playfair;
+    color: #767E86;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.paragraph-acc {
+    font-family: rubik;
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #767E86;
+    margin: 0;
+    margin-top: 4px;
+}
+
+
+
+/* Traveler`s Experiences */
+
+
+.hr-line5 {
+    width: 21.688rem;
+    height: 3px;
+    background-color: #FF7757;
+    color: #FF7757;
+    opacity: 1;
+}
+
+
+
+/* Footer */
+
+
+.footer-Menu {
+    font-family: rubik;
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.footerlinks {
+    font-family: rubik;
+    font-weight: 500;
+    font-size: 1.125rem;
+    color: #fff;
+    text-decoration: none;
+    line-height: 35px;
+}
+
+.copyright {
+    font-family: rubik;
+    font-weight: 500;
+    font-size: 0.875rem;
+    color: #fff;
+    margin: 0;
+    margin-top: 16px;
+}
+
+.subscribeBox {
+    position: absolute;
+    top: -350px;
+    width: 78.875rem;
+    height: 14.5rem;
+    background-color: #fff;
+    border: 1px solid #767E86;
+    border-radius: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribeTitle {
+    font-family: playfair;
+    font-weight: 500;
+    font-size: 4rem;
+    color: #767E86;
+    margin: 0;
+}
+
+label {
+    font-family: rubik;
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: #767E86;
+}
+
+#email {
+    width: 23.25rem;
+    height: 4.5rem;
+    background-color: #FBE9D6;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    padding-left: 2.5rem;
+}
+
+#email::placeholder {
+    font-family: rubik;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #FF7757;
+}
+
+.subscribeBtn {
+    background-color: #FF7757;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    width: 10.188rem;
+    height: 4.563rem;
+    margin-left: 32px;
+    font-family: rubik;
+    font-weight: 500;
+    font-size: 1.25rem;
+    transition: 0.4s linear;
+}
+
+.subscribeBtn:hover {
+    background-color: #172432;
+    color: #FF7757;
+}
+
+
+
 /* media queries */
 
 
