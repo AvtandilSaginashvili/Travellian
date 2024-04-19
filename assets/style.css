@@ -23,7 +23,12 @@ body {
     height: 100vh;
     position: fixed;
     z-index: 20;
-    background-color: #172432;
+    background-color: #F3F5F7;
+}
+
+.preloadgif {
+    width: 600px;
+    height: 400px;
 }
 
 
@@ -425,12 +430,15 @@ body {
     visibility: hidden;
     z-index: -1;
     transition: 0.4s linear;
+    
 }
 
 .plannerImg:hover .hoverBox {
     visibility: visible !important;
     position: absolute;
     bottom: -100px;
+    transition: 0.4s;
+    transition-timing-function: cubic-bezier(1.680, -0.850, 0.165, 2.950);
 }
 
 .plannerBtnBox {
